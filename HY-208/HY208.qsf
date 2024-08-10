@@ -91,3 +91,4 @@ set_global_assignment -name BDF_FILE "HY208.bdf"
 set_location_assignment PIN_5 -to COM2
 set_location_assignment PIN_6 -to COM3
 set_location_assignment PIN_4 -to COM4
+set_location_assignment PIN_38 -to HALL_0
