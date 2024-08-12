@@ -92,3 +92,4 @@ set_location_assignment PIN_5 -to COM2
 set_location_assignment PIN_6 -to COM3
 set_location_assignment PIN_4 -to COM4
 set_location_assignment PIN_38 -to HALL_0
+set_global_assignment -name VERILOG_FILE mux_4ch_7seg.v
