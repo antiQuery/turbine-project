@@ -87,9 +87,11 @@ set_location_assignment PIN_16 -to L2
 set_location_assignment PIN_17 -to L3
 set_location_assignment PIN_12 -to CLK
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
-set_global_assignment -name BDF_FILE "HY208.bdf"
 set_location_assignment PIN_5 -to COM2
 set_location_assignment PIN_6 -to COM3
 set_location_assignment PIN_4 -to COM4
 set_location_assignment PIN_38 -to HALL_0
+set_global_assignment -name VERILOG_FILE bin_to_7seg.v
+set_global_assignment -name VERILOG_FILE bin_to_2x7seg.v
+set_global_assignment -name BDF_FILE HY208.bdf
 set_global_assignment -name VERILOG_FILE mux_4ch_7seg.v
